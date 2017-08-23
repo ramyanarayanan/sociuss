@@ -1,0 +1,21 @@
+.grid-button {
+    float: right;
+    clear: left;
+    padding: 10px;
+    border-color: cyan;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.grid-date {
+    font-size: 11px;	
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+}
+
+.grid-content-title {
+    float: left;
+    width: 100%;
+	font-size: 18px;
+}

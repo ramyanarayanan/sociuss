@@ -11,7 +11,7 @@
 .simple_timeline ul li {
   display: block;
   position: relative;
-  width: 50%;
+  width: 50.2%;
   clear: both;
 }
 
@@ -25,12 +25,14 @@
 
 .simple_timeline ul li:nth-child(even) {
   float: right;
+  border-left: 2px solid cyan;
+
 }
 
 .simple_timeline ul li:nth-child(even) > div {
   display: block;
   float: left;
-  background: url('./img/li-bg.png') left center no-repeat;
+  background: url('./img/li-bg_flip.png') left center no-repeat;
   margin-left: -10px;
   padding-left: 30px;
 }
@@ -47,12 +49,14 @@
 .simple_timeline ul li:nth-child(odd) {
   float: left;
   text-align: right;
+  border-right: 2px solid cyan;
+
 }
 
 .simple_timeline ul li:nth-child(odd) > div {
   display: block;
   float: right;
-  background: url('./img/li-bg.png') right center no-repeat;
+  background: url('./img/li-bg_long.png') right center no-repeat;
   margin-right: -10px;
   padding-right: 30px;
 }

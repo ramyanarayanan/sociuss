@@ -8,7 +8,7 @@ core = 7.x
 ;;;;;;;;;;;;;;;;;;;;;
 
 simplytest_dependencies[] = jquery_update
-
+stylesheets[all][] = 'css/custom.css'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Regions
@@ -183,6 +183,7 @@ exclude[css][] = 'modules/taxonomy/taxonomy.css'
 exclude[css][] = 'modules/tracker/tracker.css'
 exclude[css][] = 'modules/update/update.css'
 exclude[css][] = 'modules/user/user.css'
+include[css][] = 'css/custom.css'
 
 
 ;;;;;;;;;;;;;;;;;;;;;
